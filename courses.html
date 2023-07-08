@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- render all elements normaly-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font awsome library-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- main template css file-->
+    <link rel="stylesheet" href ="css/framework.css">
+    <link rel="stylesheet" href="css/master.css">
+    <!-- google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700;900&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,300;1,400&family=Roboto:ital,wght@1,100&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20 p-relative">
+            <h3 class="txt-c mt-0 p-relative m-20">logo</h3>
+            <ul>
+                <li>
+                    <a  class=" d-flex align-center fs-14 color-black radius-6 p-10" href="index.html">
+                        <i class="fa-solid fa-magnifying-glass-chart fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a  class="d-flex align-center fs-14 color-black radius-6 p-10" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a  class="d-flex align-center fs-14 color-black radius-6 p-10" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a  class="d-flex align-center fs-14 color-black radius-6 p-10" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a  class="active d-flex align-center fs-14 color-black radius-6 p-10" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a  class="d-flex align-center fs-14 color-black radius-6 p-10" href="friends.html">
+                        <i class="fa-solid fa-user-group fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a  class="d-flex align-center fs-14 color-black radius-6 p-10" href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a  class="d-flex align-center fs-14 color-black radius-6 p-10" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-100p">
+            <div class="main-bar d-flex align-center just-between bg-white w-100p h-60px">
+                <input class="radius-6" type="search" name="searchKey" placeholder="search by keyword ">
+
+                <div class="side-profile d-flex just-between align-center ">
+                    <span class="bell p-relative">
+                        <i class="fa-regular fa-bell"></i>
+                    </span>
+                    <a href="profile.html" class="mainBar-profile w-30px d-flex align-center just-center">
+                        <img class="w-30px" src="./images/binary-code.png" alt="profile picture link">
+                    </a>
+                </div>
+
+            </div>
+            Content
+        </div>
+    </div>
+</body>
+</html>
